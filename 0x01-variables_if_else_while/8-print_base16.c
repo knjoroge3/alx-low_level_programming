@@ -16,7 +16,7 @@ while (a >= 0 && a <= 9)
 putchar('0' + a);
 a += 1;
 }
-while (b >= 97 && b <= 103)
+while (b >= 97 && b <= 102)
 {
 putchar(b);
 b += 1;
