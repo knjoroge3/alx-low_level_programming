@@ -8,12 +8,12 @@
 
 int main(void)
 {
-int a = 0;
-int b;
+int i = 0;
+int j;
 
-while (a < 99)
+while (i < 99)
 {
-j = a + 1;
+j = i + 1;
 while (j < 99)
 {
 putchar((i / 10) + '0');
