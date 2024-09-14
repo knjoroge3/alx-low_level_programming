@@ -1,14 +1,15 @@
 /**
 *main - Entry point
-*char: _putchar
 *
+*_putchar: Writes a character to the standard output
+*@c: The character to be written
 *Return: Always 0 (Success)
 */
 
 #include <stdio.h>
 #include "main.h"
 
-int _putchar(char);
+int _putchar(char c);
 
 int main(void)
 {
