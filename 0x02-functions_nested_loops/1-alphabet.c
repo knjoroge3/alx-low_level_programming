@@ -1,3 +1,7 @@
+/*
+* print_alphabet - prints the alphabet in lowercase, followed by a new line.
+*/
+
 #include <stdio.h>
 #include "main.h"
 
