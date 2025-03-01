@@ -9,17 +9,16 @@
 *
 */
 
-int _abs(int)
+int _abs(int a)
 {
-int a = 0;
 
-if (a => 0)
+if (a >= 0)
 {
-_putchar(a);
+return (a);
 }
 else
 {
-_putchar((a *  -1);
+return(a * -1);
 }
 
 return (0);
