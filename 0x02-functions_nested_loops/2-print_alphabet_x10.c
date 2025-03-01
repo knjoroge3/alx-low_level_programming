@@ -10,14 +10,18 @@
 
 void print_alphabet_x10(void)
 {
-int a = 97, newline = 0;
+int newline = 0;
 
 while (newline >= 0 && newline <= 9)
 {
+int a = 97;
+
 while (a >= 97 && a <= 122)
 {
 _putchar(a);
 a++;
 }
 _putchar('\n');
+newline++;
+}
 }
