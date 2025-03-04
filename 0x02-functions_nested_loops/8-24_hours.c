@@ -1,26 +1,31 @@
 #include "main.h"
 
 /**
-*jack_bauer - Counts down minutes and hours
+*jack_bauer - Function to print all minutes and hours
 *
-*Description: prints every minute of the day of jack bauer
+*Description: Prints all minutes and hours within 24 hours
 *
-*Return: void
+*Return: Void
 */
 
 void jack_bauer(void)
 {
-int hour1 = 0, hour2, minute1, minute2;
+int hour1, hour2, minute1, minute2;
+
+hour1 = 0;
+
+while (hour1 <= 2)
 {
-while (hour1 < 3)
 hour2 = 0;
-while (hour2 <= ((hour1 == 2) ? 3 : 9))
+
+while (hour2 <= 3)
 {
 minute1 = 0;
-while (minute1 < 6)
+{
+while (minute1 <= 5)
 {
 minute2 = 0;
-while (minute2 < 10)
+while (minute2 <= 9)
 {
 _putchar(hour1 + '0');
 _putchar(hour2 + '0');
@@ -33,6 +38,7 @@ minute2++;
 minute1++;
 }
 hour2++;
+}
 }
 hour1++;
 }
