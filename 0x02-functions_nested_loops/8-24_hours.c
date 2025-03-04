@@ -18,7 +18,7 @@ while (hour1 <= 2)
 {
 hour2 = 0;
 
-while (hour2 <= 3)
+while (hour2 <= 9 && (hour1 < 2 || (hour1 == 2 && hour2 <= 3)))
 {
 minute1 = 0;
 {
