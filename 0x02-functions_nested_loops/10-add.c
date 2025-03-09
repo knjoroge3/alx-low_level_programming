@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * add - adds two integers
@@ -9,8 +9,7 @@
  * Return: the value of the added integer
  */
 
-int add(int, int)
+int add(int a, int b)
 {
-	a, b;
 	return (a + b);
 }
