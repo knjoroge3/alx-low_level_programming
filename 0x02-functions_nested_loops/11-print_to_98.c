@@ -6,30 +6,51 @@
  *
  * @n: integer to number 98;
  *
- * Return: Always 0
+ * Return: void
  */
 
 void print_to_98(int n)
 {
-	while (n = 98)
+	if (n < 0)
 	{
-		if (n < 0)
+		while (n <= 98)
 		{
-			_putchar((n * -1) + '0');
-		}
-		else if (n >= 0)
-		{
-			_putchar(n + '0');
-		}
-		n++;
+			printf("%d", n);
 
-		else if (n > 98)
-		{
-			_putchar(n + '0');
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n++;
 		}
-		n--;
 	}
-	_putchar('\n');
-	return (0);
+	else if (n >= 0)
+	{
+		while (n <= 98)
+		{
+			printf("%d", n);
+			
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n++;
+		}
+		
+	}
+	else
+	{
+		while (n > 98)
+		{
+			printf("%d", n);
+			
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n--;
+		}
+		
+	}
+	printf("\n");
 }
-
