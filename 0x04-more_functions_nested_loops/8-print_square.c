@@ -3,19 +3,20 @@
 /**
  * print_square -prints a square
  * @size: the Size of the Square
- * @row: how big the square is on the horizontal side
- * @col: how big the square is on the vertical side.
  *
  * Return: Void
  */
 
 void print_square(int size)
 {
-	int row, col;
+	int col, row;
 
-	for (; size > 0; size++)
+	for (row = size; row > 0; row--)
 	{
-		_putchar('#');
+		for (col = 0; col < size; col++)
+		{
+			_putchar('#');
+		}
 		_putchar('\n');
 	}
 }
