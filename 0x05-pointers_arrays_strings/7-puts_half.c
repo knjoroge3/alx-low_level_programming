@@ -30,7 +30,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		number = ((result - 1) / 2);
+		number = ((result - 1) / 2 + 1);
 		{
 			for (; number <= result; number++)
 			{
